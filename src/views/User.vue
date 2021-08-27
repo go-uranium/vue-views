@@ -27,10 +27,10 @@
                 </div>
                 <div class="mt-3 px-3">
                     <div>
-                        <div class="font-black text-2xl text-gray-800">Richard Chen</div>
-                        <div class="text-gray-500">@iochen</div>
+                        <div class="font-black text-2.5xl text-gray-800">Richard Chen</div>
+                        <div class="text-base text-xl text-gray-500">@iochen</div>
                     </div>
-                    <div class="mt-3 text-sm text-gray-900">
+                    <div class="mt-3 text-base text-gray-900">
                         What is mind? No matter. What is matter? Never mind.
                     </div>
                     <div>
