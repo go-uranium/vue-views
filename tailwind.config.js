@@ -1,4 +1,4 @@
-const colors = require('tailwindcss/colors')
+const colors = require('tailwindcss/colors');
 
 module.exports = {
   purge: { content: ['./public/**/*.html', './src/**/*.vue'] },
@@ -15,7 +15,6 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-
       black: colors.black,
       white: colors.white,
       gray: colors.coolGray,
@@ -240,20 +239,28 @@ module.exports = {
     },
     fontFamily: {
       sans: [
-        'ui-sans-serif',
-        'system-ui',
+        // 'ui-sans-serif',
+        // 'system-ui',
+        // '-apple-system',
+        // 'BlinkMacSystemFont',
+        // '"Segoe UI"',
+        // 'Roboto',
+        // '"Helvetica Neue"',
+        // 'Arial',
+        // '"Noto Sans"',
+        // 'sans-serif',
+        // '"Apple Color Emoji"',
+        // '"Segoe UI Emoji"',
+        // '"Segoe UI Symbol"',
+        // '"Noto Color Emoji"',
         '-apple-system',
         'BlinkMacSystemFont',
-        '"Segoe UI"',
-        'Roboto',
-        '"Helvetica Neue"',
+        'Segoe UI',
+        'Helvetica',
         'Arial',
-        '"Noto Sans"',
         'sans-serif',
-        '"Apple Color Emoji"',
-        '"Segoe UI Emoji"',
-        '"Segoe UI Symbol"',
-        '"Noto Color Emoji"',
+        'Apple Color Emoji',
+        'Segoe UI Emoji'
       ],
       serif: ['ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       mono: [
@@ -968,4 +975,4 @@ module.exports = {
     zIndex: ['responsive', 'focus-within', 'focus'],
   },
   plugins: [],
-}
+};
