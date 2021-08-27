@@ -3,14 +3,16 @@
         <div class="sticky top-0 border-b bg-white" style="z-index: 1">
             <div class="container max-w-screen-xl mx-auto flex mt-2">
                 <div class="w-1/4">
-                    <div class="flex h-full pl-10 py-auto items-center" v-show="showStick">
-                        <div class="table-cell pr-2">
-                            <img class="rounded-full border" height="32" src="/avatar.jpeg" width="32">
+                    <transition name="fade">
+                        <div class="flex h-full pl-10 py-auto items-center" v-show="showStick">
+                            <div class="table-cell pr-2">
+                                <img class="rounded-full border" height="32" src="/avatar.jpeg" width="32">
+                            </div>
+                            <div class="table-cell font-black text-sm text-gray-800">
+                                iochen
+                            </div>
                         </div>
-                        <div class="table-cell font-black text-sm text-gray-800">
-                            iochen
-                        </div>
-                    </div>
+                    </transition>
                 </div>
                 <div class="w-3/4 flex text-center">
                     <div class="flex-1 py-2 border-b-2 border-blue-300">Overview</div>
