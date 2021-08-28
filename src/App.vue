@@ -4,5 +4,8 @@
   </div>
 </template>
 
-<style lang="scss">
+<style>
+    .sweet-modal .sweet-box-actions .sweet-action-close svg {
+        display: inline;
+    }
 </style>
